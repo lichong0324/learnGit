@@ -1,0 +1,145 @@
+body{
+    background-image: url("./image/background.png");
+    min-width: 1200px;
+}
+.container-div{
+    width: 1200px;
+    margin: 100px auto;
+}
+.menu-div{
+}
+.menu-top-li:first-child,.menu-bottom-li:first-child{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.menu-bottom-li:last-child,.menu-top-li:last-child{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.left-div{
+    float: left;
+}
+.left-div ul{
+    background-color: #3d589b;
+    margin-bottom: 100px;
+}
+.left-div li{
+    border-bottom: 1px solid #fff;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-div .iconfont{
+    font-size: 3em;
+    color: white;
+}
+.right-div{
+    float: right;
+    width: 250px;
+    min-height: 600px;
+    background-color: #3D589B;
+}
+.myinfo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.middle-div{
+    float: left;
+    width: 850px;
+    background-color: #E4E4E4;
+    border-radius: 2px;
+    margin: 0 20px;
+}
+.content-td{
+    height: 40px;
+    color: #666;
+}
+.content-name-td{
+    color: #3D589B;
+}
+.title-div{
+    font-size: 3em;
+    margin-left: 20px;
+    color: #333;
+}
+.content-div{
+    margin-left: 20px;
+}
+.content-left{
+    float: left;
+}
+.content-th{
+    text-align: left;
+    color: #333;
+    font-weight: normal;
+    border-bottom: solid 1px;
+    padding: 0 5px;
+}
+.content-right{
+    width: 200px;
+    float: right;
+    margin-right: 20px;
+}
+.content-right img{
+    width: 100%;
+}
+.avatar-div{
+    width: 80px;
+    height: 80px;
+    background-image: url("/image/avatar.jpg");
+    background-size: cover;
+    background-position: 50% 24%;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+tbody{
+    font-size: 0.8em;
+}
+.info-div span{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+.myinfo{
+    margin-top: 20px;
+}
+.name-span{
+    font-size: 2em;
+    color: #829fdb;
+}
+.brief-span{
+    color: rgba(110, 154, 212, 0.58);
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+.home-span{
+    font-size: 0.5em;
+    color: #829FDB;
+    border-bottom: solid 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+.wisdom-span{
+    font-size: 0.5em;
+    color: #829FD7;
+    margin-top: 20px;
+}
+.wisdom-name-span{
+    text-align: right!important;
+    color: #829FD7;
+    font-size: 0.5em;
+    border-bottom: solid 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.content-name-td{
+    color: #3D589B;
+}
